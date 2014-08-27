@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/thomas/sites/tester/bootstrap/dist/css'
+let g:netrw_dirhist_2='/Users/thomas/sites/codeacademy/ca_bootstrap/css'
+let g:netrw_dirhist_3='/usr/local/Cellar/vim/7.4.273/share/vim/vim74'
+let g:netrw_dirhist_4='/Users/thomas/projects/packervm/http'
+let g:netrw_dirhist_5='/Users/thomas/.vim/indent'
+let g:netrw_dirhist_6='/Users/thomas/.vim/bundle/syntastic/plugin/syntastic'
