@@ -105,7 +105,7 @@ mv /tmp/vimsimple/* "$HOME/"
 
 
 # Usage and Instructions
-Check the vimSimple (Github) Wiki page or the docs directory:
+Check the vimSimple (Github) [Wiki](https://github.com/todd-dsm/vimSimple/wiki) page or the docs directory:
 ```
 ls -l ~/.vim/docs/
 ```
