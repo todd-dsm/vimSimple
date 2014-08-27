@@ -17,10 +17,13 @@ set encoding=utf8
 set ffs=unix,dos,mac
 " Setup some auto-formatting
 set ai          "Auto indent
-set si          "Smart indent
+"set si          "Smart indent
+filetype indent on
 
 
-" Source-in languages
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" SOURCE-IN LANGUAGES
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 source $HOME/.vim/after/langs/bash.vim
 "source $HOME/.vim/after/langs/c.vim
 "source $HOME/.vim/after/langs/chef.vim

@@ -28,3 +28,9 @@
 [submodule "vim/bundle/vim-snippets"]
 	path = vim/bundle/vim-snippets
 	url = git@github.com:honza/vim-snippets.git
+[submodule "vim/bundle/vim-autocomplpop"]
+	path = vim/bundle/vim-autocomplpop
+	url = git@github.com:othree/vim-autocomplpop.git
+[submodule "vim/bundle/vim-lint"]
+	path = vim/bundle/vim-lint
+	url = git@github.com:dbakker/vim-lint.git
