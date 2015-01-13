@@ -80,7 +80,7 @@ OS X: sudo easy_install pip
 
 4) vimSimple requires that you install some Python Eggs:
 ```
-Fedora: sudo pip-python install pep8 pyflakes flake8
+Linux: sudo pip install pep8 pyflakes flake8
 Ubuntu: sudo pip install pep8 pyflakes flake8
 OS X: sudo pip install pep8
 ```
