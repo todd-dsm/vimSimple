@@ -25,7 +25,7 @@ filetype indent on
 " SOURCE-IN LANGUAGES
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 source $HOME/.vim/after/langs/bash.vim
-"source $HOME/.vim/after/langs/c.vim
+source $HOME/.vim/after/langs/clang.vim
 "source $HOME/.vim/after/langs/chef.vim
 source $HOME/.vim/after/langs/css.vim
 source $HOME/.vim/after/langs/html.vim

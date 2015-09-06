@@ -4,16 +4,11 @@
 " AUTHOR: Todd E Thomas
 " DATE:   2014/08/18
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" VARIABLES
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " CONFIGURAITION PARAMETERS
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" HTML
 if has('autocmd')
   " Set FileType
-  au BufRead,BufNewFile {html,xhtml}	set ft=html
+  au BufRead,BufNewFile html,xhtml	set ft=html
   " Tabs are 2 spaces; no wrap
   au FileType	 html		setlocal ts=2 sw=2 sts=2 expandtab tw=0 wm=0
   " Autocomplete: ON

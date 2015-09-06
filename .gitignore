@@ -6,3 +6,7 @@
 .Spotlight-V100
 .Trashes
 .netrwhist
+*.swp
+*.swo
+*.fuse_hidden*
+*.pxm
