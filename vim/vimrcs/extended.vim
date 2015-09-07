@@ -96,7 +96,6 @@ endfunction
 
 
 """
-" Remove those net files on exit - sheesh!
+" Remove those netrwhist files on exit - sheesh!
 """
-au VimLeave * filereadable("[path here]/.netrwhist")|call
-delete("[path here]/.netrwhist")|endif
+let g:netrw_dirhistmax=0

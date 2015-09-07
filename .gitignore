@@ -10,3 +10,6 @@
 *.swo
 *.fuse_hidden*
 *.pxm
+*doc/tags*
+*doc/tags-ja*
+
