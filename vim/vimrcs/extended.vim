@@ -28,14 +28,21 @@ set laststatus=2
 """
 " Set a few more universally useful options
 """
-set nu															" Alwasy display line numbers
-set ruler														" Always show cursor position
-set nobackup												" Disable backups, writebackups, swapfiles
+set nu                  " Alwasy display line numbers
+set ruler               " Always show cursor position
+set nobackup            " Disable backups, writebackups, swapfiles
 set nowb
 set noswapfile
-set showmatch												" set show matching parenthesis
-set smarttab												" insert tabs on the start of a line
-																		"	according to shiftwidth, not tabstop
+set showmatch           " set show matching parenthesis
+set smarttab            " insert tabs on the start of a line
+                        " according to shiftwidth, not tabstop
+
+"""
+" Universal Indentation: tabs converted to 4 spaces until they're not
+" Exceptions are in ~/.vim/ftplugin/ files
+"""
+"autocmd BufRead *.* set et ts=4 sw=4 sts=4 tw=80
+
 
 """
 " Toggle code-paste auto-indent with F2
@@ -73,12 +80,12 @@ set listchars=tab:▸\ ,eol:$
 " Code Folding {{{
 " URL: https://github.com/nvie/vimrc/blob/master/vimrc
 """
-set foldenable									" enable folding
-"set foldcolumn=1								" add a fold column
-set foldmethod=marker								" detect triple-{ style fold markers
-set foldlevelstart=99								" start out with everything folded
+set foldenable          " enable folding
+"set foldcolumn=1       " add a fold column
+set foldmethod=marker   " detect triple-{ style fold markers
+set foldlevelstart=99   " start out with everything folded
 "set foldopen=block,hor,insert,jump,mark,percent,quickfix,search,tag,undo
-										" which commands trigger auto-unfold
+                        " which commands trigger auto-unfold
 set foldtext=MyFoldText()
 function MyFoldText()
   let line = getline(v:foldstart)
@@ -86,3 +93,10 @@ function MyFoldText()
   return v:folddashes . sub
 endfunction
 " }}}
+
+
+"""
+" Remove those net files on exit - sheesh!
+"""
+au VimLeave * filereadable("[path here]/.netrwhist")|call
+delete("[path here]/.netrwhist")|endif
