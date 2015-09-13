@@ -28,20 +28,20 @@ source $HOME/.vim/vimrcs/extended.vim
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " SOURCE-IN LANGUAGES
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-source $HOME/.vim/ftplugin/bash.vim
-source $HOME/.vim/ftplugin/clang.vim
-"source $HOME/.vim/ftplugin/chef.vim
-source $HOME/.vim/ftplugin/css.vim
-source $HOME/.vim/ftplugin/html.vim
-source $HOME/.vim/ftplugin/javascript.vim
-source $HOME/.vim/ftplugin/json.vim
-"source $HOME/.vim/ftplugin/perl.vim
-"source $HOME/.vim/ftplugin/php.vim
-source $HOME/.vim/ftplugin/puppet.vim
-source $HOME/.vim/ftplugin/python.vim
-source $HOME/.vim/ftplugin/ruby.vim
-source $HOME/.vim/ftplugin/vimlang.vim
-"source $HOME/.vim/ftplugin/xml.vim
+source $HOME/.vim/after/ftplugin/bash.vim
+source $HOME/.vim/after/ftplugin/clang.vim
+"source $HOME/.vim/after/ftplugin/chef.vim
+source $HOME/.vim/after/ftplugin/css.vim
+source $HOME/.vim/after/ftplugin/html.vim
+source $HOME/.vim/after/ftplugin/javascript.vim
+source $HOME/.vim/after/ftplugin/json.vim
+"source $HOME/.vim/after/ftplugin/perl.vim
+"source $HOME/.vim/after/ftplugin/php.vim
+source $HOME/.vim/after/ftplugin/puppet.vim
+source $HOME/.vim/after/ftplugin/python.vim
+source $HOME/.vim/after/ftplugin/ruby.vim
+source $HOME/.vim/after/ftplugin/vimlang.vim
+"source $HOME/.vim/after/ftplugin/xml.vim
 
 
 
