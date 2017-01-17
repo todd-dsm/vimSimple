@@ -34,9 +34,6 @@
 [submodule "vim/bundle/ansible-vim"]
 	path = vim/bundle/ansible-vim
 	url = https://github.com/pearofducks/ansible-vim
-[submodule "vim/bundle/vim-hashicorp-tools"]
-	path = vim/bundle/vim-hashicorp-tools
-	url = git@github.com:hashivim/vim-hashicorp-tools.git
 [submodule "vim/bundle/L9"]
 	path = vim/bundle/L9
 	url = git@github.com:vim-scripts/L9.git
