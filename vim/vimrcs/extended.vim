@@ -99,3 +99,9 @@ endfunction
 " Remove those netrwhist files on exit - sheesh!
 """
 let g:netrw_dirhistmax=0
+
+
+"""
+" Vim concealer needs to be dialed down for JSON files
+"""
+let g:vim_json_syntax_conceal = 0

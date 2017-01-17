@@ -1,9 +1,6 @@
 [submodule "vim/bundle/html5.vim"]
 	path = vim/bundle/html5.vim
 	url = git@github.com:othree/html5.vim.git
-[submodule "vim/bundle/python-mode"]
-	path = vim/bundle/python-mode
-	url = git://github.com/klen/python-mode.git
 [submodule "vim/bundle/syntastic"]
 	path = vim/bundle/syntastic
 	url = git@github.com:scrooloose/syntastic.git
@@ -25,18 +22,30 @@
 [submodule "vim/bundle/vim-snippets"]
 	path = vim/bundle/vim-snippets
 	url = git@github.com:honza/vim-snippets.git
-[submodule "vim/bundle/vim-autocomplpop"]
-	path = vim/bundle/vim-autocomplpop
-	url = git@github.com:othree/vim-autocomplpop.git
 [submodule "vim/bundle/vim-lint"]
 	path = vim/bundle/vim-lint
 	url = git@github.com:dbakker/vim-lint.git
-[submodule "vim/bundle/L9"]
-	path = vim/bundle/L9
-	url = git@github.com:dbakker/L9.git
-[submodule "vim/bundle/vim-json"]
-	path = vim/bundle/vim-json
-	url = git@github.com:elzr/vim-json.git
 [submodule "vim/bundle/puppet-lint"]
 	path = vim/bundle/puppet-lint
 	url = git@github.com:rodjek/puppet-lint.git
+[submodule "vim/bundle/Dockerfile"]
+	path = vim/bundle/Dockerfile
+	url = git@github.com:ekalinin/Dockerfile.vim.git
+[submodule "vim/bundle/ansible-vim"]
+	path = vim/bundle/ansible-vim
+	url = https://github.com/pearofducks/ansible-vim
+[submodule "vim/bundle/vim-hashicorp-tools"]
+	path = vim/bundle/vim-hashicorp-tools
+	url = git@github.com:hashivim/vim-hashicorp-tools.git
+[submodule "vim/bundle/L9"]
+	path = vim/bundle/L9
+	url = git@github.com:vim-scripts/L9.git
+[submodule "vim/bundle/python-mode"]
+	path = vim/bundle/python-mode
+	url = git@github.com:python-mode/python-mode.git
+[submodule "vim/bundle/vim-autocomplpop"]
+	path = vim/bundle/vim-autocomplpop
+	url = git@github.com:othree/vim-autocomplpop.git
+[submodule "vim/bundle/vim-json"]
+	path = vim/bundle/vim-json
+	url = git@github.com:elzr/vim-json.git

@@ -11,6 +11,6 @@ augroup json
   autocmd!
   " SET: tabs > spaces: 2 of each - total of 80
   autocmd filetype json set et ts=2 sw=2 sts=2 tw=80
-  setlocal colorcolumn=80
+  setlocal colorcolumn=100
   highlight colorcolumn ctermbg=darkgray
 augroup END
