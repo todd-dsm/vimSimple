@@ -46,3 +46,6 @@
 [submodule "vim/bundle/vim-json"]
 	path = vim/bundle/vim-json
 	url = git@github.com:elzr/vim-json.git
+[submodule "vim/bundle/vim-hashicorp-tools"]
+	path = vim/bundle/vim-hashicorp-tools
+	url = git@github.com:hashivim/vim-hashicorp-tools.git
