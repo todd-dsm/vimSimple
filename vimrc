@@ -32,7 +32,7 @@ source $HOME/.vim/after/ftplugin/bash.vim
 source $HOME/.vim/after/ftplugin/clang.vim
 "source $HOME/.vim/after/ftplugin/chef.vim
 source $HOME/.vim/after/ftplugin/css.vim
-source $HOME/.vim/after/ftplugin/html.vim
+ source $HOME/.vim/after/ftplugin/html.vim
 source $HOME/.vim/after/ftplugin/javascript.vim
 source $HOME/.vim/after/ftplugin/json.vim
 "source $HOME/.vim/after/ftplugin/perl.vim
