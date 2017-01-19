@@ -56,35 +56,13 @@ If you have something you would like included then please submit them. Please ke
 
 ## Pre-requisites
 
-1) Upgrade to Vim:
-* Fedora: `sudo yum -y install vim-common vim-enhanced`
-* Ubuntu: `sudo apt-get install vim vim-common`
-* OS X: `brew install vim`
- * I do: `brew install vim --override-system-vi --without-nls --with-lua --with-mzscheme --with-tcl`
+1) Upgrade to Vim and install git:
+* Fedora: `sudo yum -y install vim-common vim-enhanced git`
+* Ubuntu: `sudo apt-get install vim vim-common git`
+* OS X: `brew install vim git`
+ * I do: `brew install git vim --override-system-vi --without-nls --with-lua --with-mzscheme --with-tcl`
 
-2) Install git:
-* Fedora: `sudo dnf install git`
-* Ubuntu: `sudo apt-get install git`
-* OS X: `brew install git`
-
-
-3) Install PIP (for Python):
-* Fedora: `sudo yum install python-pip`
-* Ubuntu: `sudo apt-get install python-pip`
-* OS X:
- * System: `sudo easy_install pip`
- * Homebrew: `sudo easy_install pip`
-
-
-
-4) vimSimple requires that you install some Python Eggs:
-* Linux: `sudo pip install pep8 pyflakes flake8`
-* Ubuntu: `sudo pip install pep8 pyflakes flake8`
-* OS X:
- * System: `sudo pip install pep8 pyflakes flake8`
- * Homebrew: `pip install pep8 pyflakes flake8`
-
-5) Install vimSimple:(in a test enviroment first)
+2) Install vimSimple:(in a test enviroment first)
 ```bash
 git clone --recursive -j10 https://github.com/todd-dsm/vimSimple.git code/vimsimple
 ln -s code/vimSimple/vim .vim
@@ -96,8 +74,8 @@ Update Your python.vim with a path to your site-packages:
 * Fedora: `/usr/lib64/python2.7/site-packages`
 * Ubuntu: `???`
 * OS X: (if installing in)
- * System `/Library/Python/2.7/site-packages/`
- * System `/usr/local/lib/python2.7/site-packages`
+ * System: `/Library/Python/2.7/site-packages/`
+ * Homebrew: `/usr/local/lib/python2.7/site-packages`
 
 
 # Usage and Instructions
