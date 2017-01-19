@@ -57,51 +57,47 @@ If you have something you would like included then please submit them. Please ke
 ## Pre-requisites
 
 1) Upgrade to Vim:
-```
-Fedora: sudo yum -y install vim-common vim-enhanced
-Ubuntu: sudo apt-get install vim vim-common
-OS X: brew install vim
-I do: vim --override-system-vim --with-features=huge --disable-nls --enable-interp=lua,ruby,perl,python
-```
+* Fedora: `sudo yum -y install vim-common vim-enhanced`
+* Ubuntu: `sudo apt-get install vim vim-common`
+* OS X: `brew install vim`
+ * I do: `brew install vim --override-system-vi --without-nls --with-lua --with-mzscheme --with-tcl`
 
 2) Install git:
-```
-Fedora: sudo yum install git
-Ubuntu: sudo apt-get install git
-OS X: brew install git
-```
+* Fedora: `sudo dnf install git`
+* Ubuntu: `sudo apt-get install git`
+* OS X: `brew install git`
+
 
 3) Install PIP (for Python):
-```
-Fedora: sudo yum install python-pip
-Ubuntu: sudo apt-get install python-pip
-OS X: sudo easy_install pip
-```
+* Fedora: `sudo yum install python-pip`
+* Ubuntu: `sudo apt-get install python-pip`
+* OS X:
+ * System: `sudo easy_install pip`
+ * Homebrew: `sudo easy_install pip`
+
+
 
 4) vimSimple requires that you install some Python Eggs:
-```
-Linux: sudo pip install pep8 pyflakes flake8
-Ubuntu: sudo pip install pep8 pyflakes flake8
-OS X: sudo pip install pep8
-```
+* Linux: `sudo pip install pep8 pyflakes flake8`
+* Ubuntu: `sudo pip install pep8 pyflakes flake8`
+* OS X:
+ * System: `sudo pip install pep8 pyflakes flake8`
+ * Homebrew: `pip install pep8 pyflakes flake8`
 
-5) Install vimSimple:
+5) Install vimSimple:(in a test enviroment first)
+```bash
+git clone --recursive -j10 https://github.com/todd-dsm/vimSimple.git code/vimsimple
+ln -s code/vimSimple/vim .vim
+ln -s code/vimSimple/vimrc .vimrc
 ```
-tar czvf /tmp/myVim_backup.tgz ~/.vimrc ~/.vim/
-rm -rf ~/.vimrc ~/.vim/
-mkdir /tmp/vimsimple
-git clone git@github.com:todd-dsm/vimSimple.git /tmp/vimsimple
 
 Update Your python.vim with a path to your site-packages:
-vi /tmp/vimsimple/vim/after/langs/python.vim
-
-Fedora: /usr/lib64/python2.7/site-packages
-Ubuntu: ???
-OS X:   /Library/Python/2.7/site-packages/
-
-mv /tmp/vimsimple/* "$HOME/"
-```
-
+`vi /tmp/vimsimple/vim/after/langs/python.vim`
+* Fedora: `/usr/lib64/python2.7/site-packages`
+* Ubuntu: `???`
+* OS X: (if installing in)
+ * System `/Library/Python/2.7/site-packages/`
+ * System `/usr/local/lib/python2.7/site-packages`
 
 
 # Usage and Instructions
@@ -110,12 +106,3 @@ Check the vimSimple (Github) [Wiki](https://github.com/todd-dsm/vimSimple/wiki) 
 ls -l ~/.vim/docs/
 ```
 
-
-## Remove vimSimple &
-## Restore your config:
-```
-tar czvf /tmp/vimSimple.tgz ~/.vimrc ~/.vim/
-rm -rf ~/.vimrc ~/.vim/
-
-tar xzvf /tmp/myVim_backup.tgz -C "$HOME/"
-```
