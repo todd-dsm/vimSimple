@@ -1,6 +1,9 @@
+[submodule "vim/bundle/Dockerfile.vim"]
+	path = vim/bundle/Dockerfile.vim
+	url = git@github.com:ekalinin/Dockerfile.vim.git
 [submodule "vim/bundle/syntastic"]
 	path = vim/bundle/syntastic
-	url = git@github.com:scrooloose/syntastic.git
+	url = git@github.com:vim-syntastic/syntastic.git
 [submodule "vim/bundle/tlib_vim"]
 	path = vim/bundle/tlib_vim
 	url = git@github.com:tomtom/tlib_vim.git
@@ -19,9 +22,6 @@
 [submodule "vim/bundle/vim-lint"]
 	path = vim/bundle/vim-lint
 	url = git@github.com:dbakker/vim-lint.git
-[submodule "vim/bundle/Dockerfile"]
-	path = vim/bundle/Dockerfile
-	url = git@github.com:ekalinin/Dockerfile.vim.git
 [submodule "vim/bundle/L9"]
 	path = vim/bundle/L9
 	url = git@github.com:vim-scripts/L9.git
