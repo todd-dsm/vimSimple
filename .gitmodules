@@ -1,6 +1,3 @@
-[submodule "vim/bundle/Dockerfile.vim"]
-	path = vim/bundle/Dockerfile.vim
-	url = git@github.com:ekalinin/Dockerfile.vim.git
 [submodule "vim/bundle/syntastic"]
 	path = vim/bundle/syntastic
 	url = git@github.com:vim-syntastic/syntastic.git
@@ -28,3 +25,6 @@
 [submodule "vim/bundle/vim-autocomplpop"]
 	path = vim/bundle/vim-autocomplpop
 	url = git@github.com:othree/vim-autocomplpop.git
+[submodule "vim/bundle/Dockerfile.vim"]
+	path = vim/bundle/Dockerfile.vim
+	url = git@github.com:ekalinin/Dockerfile.vim.git
