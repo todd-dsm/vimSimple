@@ -1,6 +1,14 @@
 
-vimSimple
-=========
+# vimSimple
+
+This is archived. `vimSimple` has been abandoned for something so much better...
+
+[vim-simple]! Same build but done correctly `:-)`
+
+[vim-simple]:https://github.com/todd-dsm/vim-simple
+
+---
+
 A modular .vimrc configuration with a tree structure like a Unix/Linux filesystem.
 
 This is a wad of plug-ins and mappings for those that would like to get up and running quickly with Vim as an IDE for:
@@ -83,4 +91,3 @@ Check the vimSimple (Github) [Wiki](https://github.com/todd-dsm/vimSimple/wiki) 
 ```
 ls -l ~/.vim/docs/
 ```
-
